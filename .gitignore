@@ -1,0 +1,6 @@
+data_ingested/
+*.zip
+checkpoints/
+*.pt
+restored_output/
+__pycache__/

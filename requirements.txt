@@ -1,0 +1,14 @@
+# Core
+torch>=2.3.0          # torch.compile(mode="max-autotune") requires >=2.1; 2.3+ recommended
+numpy>=1.24
+pillow>=10.0
+
+# Optional: only needed if Train.zip / Test_NoisyLR.zip ever contain TIFF
+# wafer scans instead of / in addition to .npy arrays.
+tifffile>=2023.7.10
+
+# Optional: only needed for the `export_to_tensorrt()` ONNX export path in
+# eval_hpc.py. Not required for training or plain PyTorch inference.
+onnx>=1.15.0
+onnxruntime-gpu>=1.17.0 ; sys_platform != "darwin"
+onnxruntime>=1.17.0 ; sys_platform == "darwin"
