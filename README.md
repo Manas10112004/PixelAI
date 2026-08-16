@@ -70,7 +70,7 @@ The final trained model weights (`best_model.pt`) are loaded automatically by th
 
 *(If you are downloading this repository via a zip file or if Git LFS was not used, please download the weights from the link below and place them in the `checkpoints` directory before running inference):*
 
-**[Download Model Weights Here] (Insert Google Drive / HuggingFace Link)**
+**[Download Model Weights Here] (https://drive.google.com/file/d/1joDtipMvIZ3c_RU8M6xbC8SKwy-SUzn7/view?usp=sharing)**
 
 ```
 
