@@ -1,6 +1,6 @@
-data_ingested/
-*.zip
-checkpoints/
-*.pt
+*.png
+*.jpg
+eval_results/
 restored_output/
+checkpoints/
 __pycache__/
